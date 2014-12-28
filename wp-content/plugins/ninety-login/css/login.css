@@ -1,0 +1,267 @@
+/* Tabs */
+ul.nd_tabs {
+	list-style: none !important;
+	margin: 0 0 -1px !important;
+	padding: 0 !important;
+	overflow: hidden;
+	zoom: 1;
+}
+ul.nd_tabs li {
+	background: #DDD;
+	border-left: 1px solid #DDD;
+	border-right: 1px solid #DDD;
+	border-top: 1px solid #DDD;
+	float: left;
+	font-size: 11px;
+	margin-right: 5px;
+	padding: 0.5em 1em;
+	text-transform: uppercase;
+
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-khtml-border-top-left-radius: 4px;
+	-khtml-border-top-right-radius: 4px;
+	-o-border-top-left-radius: 4px;
+	-o-border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+ul.nd_tabs li.active {
+	background: #fff;
+}
+ul.nd_tabs li a {
+	color: #333;
+	font-weight: bold;
+	text-decoration: none !important;
+	text-shadow: white 0px 1px 0px;
+}
+
+/* Messages */
+form.nd_form ul.errors, form.nd_form ul.messages {
+	margin: 0 !important;
+	list-style: none !important;
+}
+form.nd_form ul.errors li, form.nd_form ul.messages li {
+	border: 1px solid;
+	margin: 0 0 8px 0;
+	padding: 15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	font-size: 13px;
+}
+form.nd_form ul.messages li {
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	background-image:url('../img/success.png');
+}
+form.nd_form ul.errors li {
+	color: #9d7b11;
+	background-color: #ffe69c;
+	background-image: url('../img/errors.png');
+}
+
+
+/* Form/Div Styling */
+form.nd_form, div.nd_logged_in {
+	border: 1px solid #ddd;
+	border-bottom: 2px solid #ddd;
+	padding: 1em;
+	font-size: 11px;
+}
+form.nd_form h2, div.nd_logged_in h2, form.nd_form h3, div.nd_logged_in h3 {
+	margin-top: 0;
+	clear: none;
+}
+form.nd_form p {
+	margin: 0 0 0.5em;
+	padding: 0;
+	font-size: 13px;
+	line-height: 21px;
+	font-weight: normal;
+	clear: both;
+}
+form.nd_form p a {
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: -0.05em;
+	color: #3590bd;
+}
+form.nd_form p a.forgotten {
+	float: right;
+	padding: 6px 0 0 0;
+	text-transform: none;
+}
+div.nd_logged_in .avatar {
+	padding: 2px;
+	border: 1px solid #ddd;
+	float: right;
+}
+form.nd_form label {
+	display: block;
+	color: #777;
+}
+form.nd_form label.hidden {
+	visibility: hidden;
+}
+form.nd_form input.text {
+    border-top: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background: #fff url(../img/input.png) repeat-x top left;
+    color: #777;
+    font-size: 14px;
+    padding: 5px 2% 3px;
+    width: 96%;
+    margin: 0;
+    outline: 0;
+
+    -khtml-border-radius: 3px;
+    -o-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+form.nd_form input.text:focus {
+	background: #f3f3f3;
+}
+form.nd_form p.column {
+	float: left;
+	width: 49%;
+	margin-right: 2%;
+	clear: none;
+}
+form.nd_form p.column-alt {
+	margin-right: 0;
+	float: right;
+}
+form.nd_form p.column input {
+	 padding: 5px 3% 3px;
+    width: 94%;
+}
+.nd_logged_in ul.links {
+	margin: 0;
+	padding: 0;
+	list-style: none outside;
+	overflow: hidden;
+	zoom: 1;
+}
+.nd_logged_in ul.links li {
+	float: left;
+	margin: 0 4px 4px 0;
+}
+.nd_logged_in ul.links li a {
+	background: #dde0e1;
+	padding: 0.5em;
+	float: left;
+
+	/*Border radius*/
+    -khtml-border-radius: 2px;
+    -o-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.nd_logged_in .count {
+	color: #b1863d;
+	background: #fff1d8;
+	padding: 1px 2px;
+	margin: 0 2px;
+	font-size: 1.4em;
+	font-style: italic;
+	font-family: Georgia, Times, Serif;
+}
+.nd_logged_in hr {
+	border: 0;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+/* Buttons */
+form.nd_form input.button {
+	font-size: 13px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 3px 13px;
+    border: 1px solid #4081af;
+    border-bottom-color: #20559a;
+    color: white !important;
+    text-align: center;
+    text-shadow: 0 -1px 0 hsla(0,0%,0%,.3);
+    text-decoration: none;
+    cursor: pointer;
+
+    /*Border radius*/
+    -khtml-border-radius: 14px;
+    -o-border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+
+    /*Background*/
+    background: #2288bb;
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(.2, #4badde),
+        color-stop(1, #2288bb)
+    );
+    background: -moz-linear-gradient(
+        center top,
+        #4badde 20%,
+        #2288bb 100%
+    );
+
+    /*Box shadow*/
+    -webkit-box-shadow:
+    	inset 0 1px 0 hsla(0,100%,100%,.3) /*Top*/,
+        inset 0 0 2px hsla(0,100%,100%,.3) /*Shine*/,
+        0 1px 2px hsla(0, 0%, 0%, .29) /*Shadow*/;
+    -moz-box-shadow:
+    	inset 0 1px 0 hsla(0,100%,100%,.3) /*Top*/,
+        inset 0 0 2px hsla(0,100%,100%,.3) /*Shine*/,
+        0 1px 2px hsla(0, 0%, 0%, .29) /*Shadow*/;
+    box-shadow:
+    	inset 0 1px 0 hsla(0,100%,100%,.3) /*Top*/,
+        inset 0 0 2px hsla(0,100%,100%,.3) /*Shine*/,
+        0 1px 2px hsla(0, 0%, 0%, .29) /*Shadow*/;
+}
+
+form.nd_form input.button:hover {
+    text-decoration: none !important;
+
+    /*Background*/
+    background: #0073d2; /*Fallback*/
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(.2, #3e9ee5),
+        color-stop(1, #1666ca)
+    );
+    background: -moz-linear-gradient(
+        center top,
+        #3e9ee5 20%,
+        #1666ca 100%
+    );
+}
+
+form.nd_form input.button:active  {
+    border-color: #20559a;
+
+    /*Box shadow*/
+    -webkit-box-shadow:
+    	inset 0 0 7px hsla(0,0%,0%,.3) /*Shine*/,
+        0 1px 0 hsla(0, 100%, 100%, 1) /*Shadow*/;
+    -moz-box-shadow:
+    	inset 0 0 7px hsla(0,0%,0%,.3) /*Shine*/,
+		0 1px 0 hsla(0, 100%, 100%, 1) /*Shadow*/;
+    box-shadow:
+    	inset 0 0 7px hsla(0,0%,0%,.3) /*Shine*/,
+		0 1px 0 hsla(0, 100%, 100%, 1) /*Shadow*/;
+}
